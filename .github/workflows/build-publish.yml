@@ -30,4 +30,5 @@ jobs:
           # jf bs --fail=false
           #jf audit --sast --format=simple-json
           #jf audit --sast --sca
-          jf audit --sast --vuln --sca
+          #jf audit --sast --vuln --sca
+          jf audit --sast --vuln --sca --format=simple-json
